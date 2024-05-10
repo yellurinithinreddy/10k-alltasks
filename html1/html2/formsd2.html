@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form1</title>
+  </head>
+  <body>
+    <form method="post">
+      <input type="text" id="nm" name="tt" pattern="[a-zA-z]{3,7}" autofocus />
+      <label for="ta">Reviews:</label>
+      <textarea id="ta" name="review" rows="5" cols="23"></textarea>
+      <input type="submit" />
+      <label for="cars">Enter ur fav car :</label>
+      <select id="cars" name="cars" multiple>
+        <optgroup label="grp1">
+          <option value="tata">Tata</option>
+          <option selected value="tata">Volvo</option>
+        </optgroup>
+        <optgroup label="grp2">
+          <option value="tata">range rover</option>
+          <option value="tata">land rover</option>
+        </optgroup>
+      </select>
+      <br /><br />
+      <label for="languag">Enter any language:</label>
+      <input type="list" id="languag" name="language" list="languages1" />
+      <datalist id="languages">
+        <option value="lang1">lang1</option>
+        <option value="lang2">lang2</option>
+        <option value="lang3">lang3</option>
+        <option value="lang4">lang4</option>
+      </datalist>
+      <datalist id="languages1">
+        <option>lang11</option>
+        <option>lang22</option>
+        <option value="lang33">lang33</option>
+        <option value="lang44">lang44</option>
+      </datalist>
+    </form>
+  </body>
+</html>

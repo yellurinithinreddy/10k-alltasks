@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Application Form</legend>
+            <label for="fname">Enter First Name:</label>
+            <input disabled name="firstname" type="text" id="fname" required value="Nitn">
+            <br><br>
+            <label for="email">Email:</label>
+            <input name="email" type="email" id="email" placeholder="eg:xxx@gmail.com">
+            <br><br>
+            <label for="pass">Password:</label>
+            <input name="pswd" type="password" id="pass" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <br><br>
+            <label for="num">Enter Number:</label>
+            <input type="number" id="num" name="numb">
+            <br><br>
+            <label for="mobnum">Enter Mobile number:</label>
+            <input type="tel" id="mobnum" name="mob" pattern="(?=.*[0-9]).{10}">
+            <br><br>
+            <p>Enter Gender:</p>
+            <input type="radio" name="gender" id="m" value="male" checked>
+            <label for="m">Male</label>
+            <br><br>
+            <input type="radio" name="gender" id="f" value="female">
+            <label for="f">Female</label>
+            <br><br>
+            <input type="radio" name="gender" id="o" value="others">
+            <label for="m">Others</label>
+            <br><br>
+            <p>Enter fav car:</p>
+            <input type="checkbox" name="car1" id="car1" value="tata">
+            <label for="car1">Creta</label>
+            <br><br>
+            <input type="checkbox" name="car2" id="car2" value="bmw">
+            <label for="car2">bmw</label>
+            <br><br>
+            <input type="checkbox" name="car3" id="car3" value="benz">
+            <label for="car2">bmw</label>
+            <br><br>
+            <input type="date">
+            <br><br>
+            <input type="datetime-local" name="" id="">
+            <br><br>
+            <input type="week" name="" id="">
+            <input type="submit" value="signup">
+            <input type="file" multiple>
+            <input type="color" name="clr" id="clr">
+            <input type="reset">
+            <input type="button" value="">
+        </fieldset>
+
+    </form>
+</body>
+</html>
